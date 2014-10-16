@@ -317,7 +317,7 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'https://github.com/ilkelma/ilkelma-page-build.git',
+          remote: 'https://github.com/ilkelma/ilkelma.github.io.git',
           branch: 'master',
           commit: true,
           push: true
