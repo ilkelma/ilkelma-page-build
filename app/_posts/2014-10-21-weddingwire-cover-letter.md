@@ -49,4 +49,4 @@ Thank you for taking the time to read this and I look forward to talking to you 
 
 [bower]: http://www.bower.io
 [grunt]: http://gruntjs.com/
-[amksig]: {{ site.url }}/_img/amksigs.jpg
+[amksig]: {{ site.url }}/img/amksigs.jpg
