@@ -1,3 +1,5 @@
+@import "../_bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap";
+
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 /*
@@ -98,15 +100,84 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+// For replacement later and a more semantic layout let's wrap bootstrap styles
+.topbar {
+  @extend .navbar, .navbar-default, .navbar-fixed-top;
+}
 
+.nav-section {
+  @extend .nav, .navbar-nav;
+}
 
+.nav-section-right {
+  @extend .nav-section, .navbar-right;
+}
 
+#about, #letter {
+  margin-top: 40px;
 
+}
 
+.main-block-section {
+  @extend .container;
+  height: 100px;
+}
 
+.about-container {
+  @extend .main-block-section;
+}
 
+.blog-container {
+  @extend .main-block-section;
 
+}
+.resume-container {
+  @extend .main-block-section;
 
+}
+
+.portfolio-container {
+  @extend .main-block-section;
+
+}
+
+.contact-container {
+  @extend .main-block-section;
+}
+.letter-container {
+  @extend .main-block-section;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+#letter {
+
+}
+
+.lang-icon {
+  text-align: center;
+  font-size: 3em;
+}
+
+.groovy-icon {
+  text-align: center;
+  font-size: 4em;
+}
+
+.focusimage {
+  margin-top: 100px;
+}
 
 
 

@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ page.title }}</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
-    <!-- build:css({app,.tmp}) /_css/main.css -->
-    <link rel="stylesheet" href="/_bower_components/normalize-css/normalize.css">
-    <link rel="stylesheet" href="/_css/syntax.css">
-    <link rel="stylesheet" href="/_css/main.css">
-    <!-- endbuild -->
-    <!-- endbuild -->
-
+    {% include head.html %}
   </head>
   <body>
+    {% include navbar.html %}
     <!--[if lt IE 8]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <section id="about">
+      <div class="about-container">
+        <h1>A.M. Knight</h1>
+        <span>Full Stack Web Developer</span>
+        <p>
+          <i class="fa fa-desktop"></i>&nbsp;
+          <i class="fa fa-exchange"></i>&nbsp;
+          <i class="fa fa-cogs"></i>&nbsp;
+          <i class="fa fa-exchange"></i>&nbsp;
+          <i class="fa fa-database"></i>
+        </p>
+      </div>
+    </section>
+    <section id="blog">
+      <div class="blog-container">
+        {{ content }}
+      </div>
+    </section>
+    <section id="resume">
+      <div class="resume-container">
 
-    {{ content }}
+      </div>
+    </section>
+    <section id="portfolio">
+      <div class="portfolio-container">
+
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-container">
+
+      </div>
+    </section>
+
+    {% include footer.html %}
 
     {% include scripts.html %}
     {% include googleanalytics.html %}

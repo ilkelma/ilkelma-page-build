@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    A.M. Knight -- Owner & Admin -- @amknight
 
 # THANKS
 
-    <name>
+    The people behind the jekyllrb yeoman generator.
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     Normalize.css, jQuery, Modernizr
+    Yeoman, Jekyll, Bootstrap
+    Compass, SASS
